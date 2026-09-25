@@ -26,7 +26,7 @@
             <a href="#inicio" class="header-logo">
                 <img src="https://torresweb.com.br/wp-content/uploads/2024/11/Roboto-1.pdf-2-e1732382768611.png" alt="Torres Web Logo">
             </a>
-            <nav>
+            <nav class="desktop-nav">
                 <ul class="nav-links">
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#portfolio">Portfólio</a></li>
@@ -36,11 +36,31 @@
                     <li><a href="#faq">Dúvidas Frequentes</a></li>
                 </ul>
             </nav>
-            <a href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20um%20orçamento.#ads" data-tracking="whatsapp-click" target="_blank" class="btn-primary header-btn">
+            <a href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20um%20orçamento.#ads" data-tracking="whatsapp-click" target="_blank" class="btn-primary header-btn desktop-btn">
                 Fazer Orçamento <i class="fas fa-paper-plane" style="margin-left:5px;"></i>
             </a>
+            <div class="mobile-menu-toggle" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
+
+    <!-- Mobile Overlay Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <div class="mobile-menu-close" id="mobileMenuClose"><i class="fas fa-times"></i></div>
+        <img src="https://torresweb.com.br/wp-content/uploads/2024/11/Roboto-1.pdf-2-e1732382768611.png" alt="Torres Web Logo" class="mobile-menu-logo">
+        <ul class="mobile-nav-links">
+            <li><a href="#inicio" class="mobile-link">Início</a></li>
+            <li><a href="#portfolio" class="mobile-link">Portfólio</a></li>
+            <li><a href="#avaliacoes" class="mobile-link">Casos de Sucesso</a></li>
+            <li><a href="#tecnologia" class="mobile-link">Tecnologia</a></li>
+            <li><a href="#planos" class="mobile-link">Planos</a></li>
+            <li><a href="#faq" class="mobile-link">Dúvidas Frequentes</a></li>
+        </ul>
+        <a href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20um%20orçamento.#ads" data-tracking="whatsapp-click" target="_blank" class="btn-primary mobile-menu-btn">
+            Fazer Orçamento <i class="fas fa-paper-plane" style="margin-left:5px;"></i>
+        </a>
+    </div>
 
     <!-- Hero Section -->
     <section id="inicio" class="hero">
@@ -57,10 +77,10 @@
                 
                 <h1 class="hero-title">
                     Criação de Sites em Sorocaba:<br>
-                    <span class="text-cyan">Transforme Cliques em Orçamentos no WhatsApp</span>
+                    <span class="text-cyan">Seu Concorrente Está Roubando Seus Clientes Agora</span>
                 </h1>
                 
-                <p class="hero-desc">Pare de perder contratos para a concorrência por causa de um site lento e amador. Tenha uma página de alta performance hoje.</p>
+                <p class="hero-desc">Se o seu site for feio, amador ou demorar para abrir, o cliente simplesmente foge para o concorrente. Pare de perder dinheiro e tenha uma página de alta conversão que convence o cliente a te chamar no WhatsApp.</p>
                 
                 <a href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20um%20orçamento.#ads" data-tracking="whatsapp-click" target="_blank" class="btn-primary">
                     <i class="fas fa-paper-plane"></i> Fazer Orçamento no WhatsApp
@@ -176,13 +196,13 @@
 
     <!-- Dor / Mercado -->
     <section id="problema" class="section" style="background:#0b1220; padding-top:80px;">
-        <div class="container" style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 50px;">
-            <div style="max-width:50%;">
-                <div class="hero-tag" style="margin-bottom:15px;"><i class="fas fa-circle-notch"></i> CRIAÇÃO DE SITES</div>
+        <div class="container flex-section-header">
+            <div class="flex-section-left">
+                <div class="hero-tag" style="margin-bottom:15px;"><i class="fas fa-circle-notch"></i> PARE DE PERDER VENDAS</div>
                 <h2 class="section-title" style="font-size:38px;">Quanto dinheiro você está perdendo por não ter um site profissional?</h2>
             </div>
-            <div style="max-width:40%; padding-top:45px;">
-                <p class="section-subtitle" style="font-size:16px;">Os dados oficiais do mercado provam: depender apenas de redes sociais ou usar um site amador é o maior ralo de lucro para o seu negócio.</p>
+            <div class="flex-section-right">
+                <p class="section-subtitle" style="font-size:16px;">Ter um site ruim ou viver só de Instagram é o jeito mais rápido de rasgar dinheiro hoje. Veja o que os grandes estudos provam:</p>
             </div>
         </div>
 
@@ -192,22 +212,22 @@
                 <div class="modern-pain-card">
                     <div class="watermark">01</div>
                     <div class="icon-wrapper"><i class="fas fa-eye-slash"></i></div>
-                    <h3>A Invisibilidade no Google:</h3>
-                    <p>Segundo o próprio Google, 97% das pessoas pesquisam online antes de contratar um serviço local. Se você não tem um site profissional, esse cliente com o dinheiro na mão cai direto no WhatsApp do seu concorrente.</p>
+                    <h3>Quem Não Aparece, Não Vende:</h3>
+                    <p>O <strong>Google</strong> diz que 97% das pessoas pesquisam na internet antes de comprar de uma empresa. Se você não tem um site forte lá, esse cliente com o dinheiro na mão vai direto para o concorrente.</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="modern-pain-card">
                     <div class="watermark">02</div>
                     <div class="icon-wrapper"><i class="fas fa-paint-roller"></i></div>
-                    <h3>O Preço do Visual Amador:</h3>
-                    <p>Um estudo da Universidade de Stanford comprovou que 75% dos consumidores julgam a credibilidade de uma empresa apenas pelo design do site. Se o layout for ruim, os contratos de alto valor vão embora em segundos.</p>
+                    <h3>A Cara da Riqueza (ou da Pobreza):</h3>
+                    <p>A <strong>Universidade de Stanford</strong> provou: 75% das pessoas decidem se sua empresa é boa só olhando para o seu site. Se o site for feio, o cliente acha que seu serviço também é ruim e vai embora.</p>
                 </div>
                 <!-- Card 3 -->
                 <div class="modern-pain-card">
                     <div class="watermark">03</div>
                     <div class="icon-wrapper"><i class="fas fa-hourglass-end"></i></div>
-                    <h3>A Lentidão que Queima Verba:</h3>
-                    <p>Dados do Think with Google revelam que 53% dos usuários abandonam uma página se ela demorar mais de 3 segundos para carregar. Você paga o clique no anúncio, mas o cliente desiste antes mesmo de ver a sua oferta.</p>
+                    <h3>O Cliente Foge na Hora (Lentidão):</h3>
+                    <p>Estudos do <strong>Google</strong> avisam: 53% das pessoas desistem se a página demorar mais de 3 segundos para abrir. Você consegue chamar a atenção do cliente, mas perde a venda na mesma hora porque o site travou.</p>
                 </div>
             </div>
 
@@ -441,13 +461,13 @@
 
     <!-- Tecnologia de Alta Performance -->
     <section id="tecnologia" class="section" style="background:#0b1220; padding-top:80px;">
-        <div class="container" style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 50px;">
-            <div style="max-width:50%;">
-                <div class="hero-tag" style="margin-bottom:15px;"><i class="fas fa-circle-notch"></i> CRIAÇÃO DE SITES</div>
-                <h2 class="section-title" style="font-size:38px;">Tecnologia de Alta Performance: O motor por trás das suas vendas.</h2>
+        <div class="container flex-section-header">
+            <div class="flex-section-left">
+                <div class="hero-tag" style="margin-bottom:15px;"><i class="fas fa-circle-notch"></i> O NOSSO SEGREDO</div>
+                <h2 class="section-title" style="font-size:38px;">Por que nossos sites trazem tanto resultado?</h2>
             </div>
-            <div style="max-width:40%; padding-top:45px;">
-                <p class="section-subtitle" style="font-size:16px;">Você não está comprando um "layout bonito". Entenda os 6 pilares da infraestrutura que usamos para transformar a sua página numa máquina de captar clientes.</p>
+            <div class="flex-section-right">
+                <p class="section-subtitle" style="font-size:16px;">Nós não fazemos apenas um "site bonitinho". Nós criamos uma máquina rápida e focada em fazer o celular da sua empresa tocar. Entenda como:</p>
             </div>
         </div>
 
@@ -456,38 +476,38 @@
                 <!-- Card 1 -->
                 <div class="tech-feature-card">
                     <i class="fas fa-bolt"></i>
-                    <h3>Velocidade Extrema (Fim do Abandono)</h3>
-                    <p>Desenvolvemos o seu site com código ultraleve. Ele abre quase instantaneamente no celular, garantindo que você não perca o clique que pagou para ter.</p>
+                    <h3>Velocidade Jato (Fim da Espera)</h3>
+                    <p>A internet é apressada. Nós fazemos o seu site abrir rápido como um raio. Assim, o cliente não desiste de esperar e você não joga oportunidades de venda no lixo.</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="tech-feature-card">
                     <i class="fas fa-bullseye"></i>
-                    <h3>Engenharia de Conversão (Foco no WhatsApp)</h3>
-                    <p>Toda a arquitetura do site e o contraste dos botões são desenhados com um único objetivo: guiar o visitante direto para o WhatsApp da sua equipe comercial.</p>
+                    <h3>Botão do WhatsApp Que Vende</h3>
+                    <p>Nós colocamos botões do WhatsApp nos lugares certos e com as cores certas. O cliente não precisa pensar: ele só clica e já cai falando com você na mesma hora.</p>
                 </div>
                 <!-- Card 3 -->
                 <div class="tech-feature-card">
                     <i class="fas fa-mobile-alt"></i>
-                    <h3>Experiência "Mobile-First" (Foco no Celular)</h3>
-                    <p>Como mais de 80% das buscas vêm de smartphones, criamos a estrutura com foco total nas telas pequenas. Navegação fluida sempre ao alcance do polegar.</p>
+                    <h3>Feito Para o Celular</h3>
+                    <p>Mais de 80% dos seus clientes vão chegar pelo celular. Por isso, criamos o site perfeito para telas pequenas. Tudo funciona fácil e não trava no dedo do cliente.</p>
                 </div>
                 <!-- Card 4 -->
                 <div class="tech-feature-card">
                     <i class="fas fa-search-location"></i>
-                    <h3>Estrutura Otimizada para o Google (SEO local)</h3>
-                    <p>Entregamos a página com a estrutura exata que o algoritmo exige. Isso aumenta a sua relevância e ajuda sua empresa a ser encontrada por quem pesquisa na região.</p>
+                    <h3>Preparado para o Google (SEO)</h3>
+                    <p>Nós construímos o site seguindo o manual de regras do Google. Ele já nasce com a base técnica perfeita para facilitar que sua empresa seja encontrada nas buscas no futuro.</p>
                 </div>
                 <!-- Card 5 -->
                 <div class="tech-feature-card">
                     <i class="fas fa-gem"></i>
-                    <h3>Autoridade Visual Corporativa</h3>
-                    <p>O design dita o preço que você pode cobrar. Aplicamos uma identidade premium que destrói a desconfiança nos primeiros 3 segundos de acesso.</p>
+                    <h3>Design de Empresa Gigante</h3>
+                    <p>Fazemos sua empresa parecer a melhor da cidade. Quando o cliente entra no site, ele sente confiança imediata e paga o preço que você pedir, sem chorar por desconto.</p>
                 </div>
                 <!-- Card 6 -->
                 <div class="tech-feature-card">
-                    <i class="fas fa-key"></i>
-                    <h3>Propriedade 100% Sua</h3>
-                    <p>Fuja das plataformas alugadas. Todo o código desenvolvido pertence exclusivamente à sua empresa. Você tem controle total do seu ativo digital.</p>
+                    <i class="fas fa-filter"></i>
+                    <h3>Feito Apenas Para Vender</h3>
+                    <p>Nós não fazemos sites que servem só de enfeite na internet. A página é desenhada como uma vitrine inteligente que pega o visitante curioso e convence ele a comprar de você.</p>
                 </div>
             </div>
 
@@ -520,7 +540,7 @@
                     <li>Código Seguro e Proteção Anti-Spam</li>
                     <li>Carregamento Ultrarrápido</li>
                 </ul>
-                <a class="tw-botao-plano" href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20um%20orçamento.#ads" data-tracking="whatsapp-click" target="_blank">SELECIONAR PLANO</a>
+                <a class="tw-botao-plano" href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20solicitar%20o%20plano%20Landing%20Page.#ads" data-tracking="whatsapp-click" target="_blank">SELECIONAR PLANO</a>
             </div>
 
             <!-- Cartão 2 -->
@@ -538,7 +558,7 @@
                     <li>Código Seguro e Proteção Anti-Spam</li>
                     <li>Carregamento Ultrarrápido</li>
                 </ul>
-                <a class="tw-botao-plano" href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20um%20orçamento.#ads" data-tracking="whatsapp-click" target="_blank">SELECIONAR PLANO</a>
+                <a class="tw-botao-plano" href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20solicitar%20o%20plano%20Site%20Institucional.#ads" data-tracking="whatsapp-click" target="_blank">SELECIONAR PLANO</a>
             </div>
 
             <!-- Cartão 3 -->
@@ -555,7 +575,7 @@
                     <li>Integrações Especiais</li>
                     <li>Carregamento Ultrarrápido</li>
                 </ul>
-                <a class="tw-botao-plano" href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20um%20orçamento.#ads" data-tracking="whatsapp-click" target="_blank">FALAR COM ESPECIALISTA</a>
+                <a class="tw-botao-plano" href="https://wa.me/5515981672866?text=Olá!%20Vim%20pelo%20anúncio%20do%20Google.%20Gostaria%20de%20falar%20com%20um%20especialista%20sobre%20o%20plano%20Escala%20Máxima.#ads" data-tracking="whatsapp-click" target="_blank">FALAR COM ESPECIALISTA</a>
             </div>
         </div>
     </section>
@@ -681,6 +701,29 @@
     <!-- Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // Lógica do Menu Mobile Responsivo
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+            const mobileMenuClose = document.getElementById('mobileMenuClose');
+            const mobileLinks = document.querySelectorAll('.mobile-link');
+
+            if(mobileMenuBtn && mobileMenuOverlay && mobileMenuClose) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    mobileMenuOverlay.classList.add('active');
+                    document.body.style.overflow = 'hidden'; 
+                });
+                mobileMenuClose.addEventListener('click', () => {
+                    mobileMenuOverlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenuOverlay.classList.remove('active');
+                        document.body.style.overflow = '';
+                    });
+                });
+            }
+
             // Lógica do Header Fixo (Scroll)
             const mainHeader = document.getElementById('mainHeader');
             window.addEventListener('scroll', () => {
